@@ -7,16 +7,16 @@
     <div class="collapse navbar-collapse" id="collapsibleNavId">
         <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" routerLink="">Home</a>
+                <a class="nav-link" routerLink="home">Home</a>
             </li>
-            <li class="nav-item">
+            <li  class="nav-item">
                 <a class="nav-link" routerLink="signIn">signIn</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" routerLink="signUp">signUp</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" routerLink="signUp">signOut</a>
+                <a class="nav-link" style="cursor:pointer" (click)="signOut()">signOut</a>
             </li>
 
         </ul>
