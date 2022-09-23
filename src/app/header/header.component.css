@@ -1,0 +1,16 @@
+.navbar-light .navbar-nav .nav-link{
+    color: var(--secondary-color);
+}
+
+.navbar-light .navbar-nav .nav-link .active-link .nav-item {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+.navbar-brand
+{
+   font-weight: bold; 
+   font-size: 20px;
+}
+.navbar{
+    background: rgb(147, 212, 231);
+}
